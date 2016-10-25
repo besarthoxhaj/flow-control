@@ -1,10 +1,10 @@
 # flow-control
 Examples of flow control
 
-## Example of the problem
+## Problem
 
-Suppose your application has forgot password functionality.
-A possible flow is considering HTTP requests:
+Suppose your application has a forgot password functionality.
+A possible flow considering HTTP requests is:
 - post email to /password
 - check if user exists from email
 - if email exists get user id
